@@ -1,0 +1,164 @@
+### exported: Fri Nov 29 09:20:49 2013
+### from:     Arnold 4.1.1.0 windows icc130 oiio10202 rlm1012 2013/11/14 18:21:42
+
+options
+{
+ AA_samples 4
+ xres 480
+ yres 480
+ GI_diffuse_samples 3
+ GI_diffuse_depth 1
+ shader_gamma 2.2
+ light_gamma 2.2
+ texture_gamma 2.2
+ camera fish
+ atmosphere myfog
+ outputs "RGBA RGBA filter testrender"
+}
+
+gaussian_filter
+{
+ name filter
+ width 2
+}
+
+
+driver_exr
+{
+ name testrender
+ filename "image.exr"
+ compression "zip"
+ half_precision off
+ tiled on
+ preserve_layer_name off
+ autocrop off
+ append off
+}
+
+fisheye_camera
+{
+  name fish
+  position 0 .25 3
+  look_at 0 0 0
+  up 0 1 0
+  fov 180
+}
+
+volume_scattering
+{
+ name myfog
+ samples 6
+ density 0.1
+}
+
+standard
+{  
+  name left_srf
+  Kd_color 0 0 1
+}
+
+standard 
+{
+  name right_srf
+  Kd_color 1 0 0
+}
+
+standard 
+{
+  name bottom_srf
+  Kd_color 1 1 1
+}
+
+standard 
+{
+  name top_srf
+  Kd_color 1 1 1
+}
+
+standard 
+{
+  name back_srf
+  Kd_color 1 1 1
+}
+
+standard
+{
+  name pimp
+  Kr 1
+  Kd 0
+}
+
+polymesh
+{
+  name left
+  nsides 1 1 BYTE 4
+  vidxs 4 1 LONG 0 1 2 3
+  nidxs 4 1 LONG 0 0 0 0
+  vlist 12 1 FLOAT -2.0 -2.0 8.0   -2.0 2.0 8.0   -2.0 2.0 -2.0  -2.0 -2.0 -2.0
+  nlist 3 1 FLOAT 1.0 0 0 
+  shader left_srf
+}
+
+polymesh
+{
+  name right
+  nsides 1 1 BYTE 4
+  vidxs 4 1 LONG 0 1 2 3
+  nidxs 4 1 LONG 0 0 0 0
+  vlist 12 1 FLOAT 2.0 -2.0 8.0   2.0 2.0 8.0   2.0 2.0 -2.0  2.0 -2.0 -2.0
+  nlist 3 1 FLOAT -1.0 0 0 
+  shader right_srf
+}
+
+polymesh
+{
+  name top
+  nsides 1 1 BYTE 4
+  vidxs 4 1 LONG 0 1 2 3
+  nidxs 4 1 LONG 0 0 0 0
+  vlist 12 1 FLOAT -2.0 2.0 8.0   2.0 2.0 8.0   2.0 2.0 -2.0  -2.0 2.0 -2.0
+  nlist 3 1 FLOAT 0.0 -1 0 
+  shader top_srf
+}
+
+polymesh
+{
+  name bottom
+  nsides 1 1 BYTE 4
+  vidxs 4 1 LONG 0 1 2 3
+  nidxs 4 1 LONG 0 0 0 0
+  vlist 12 1 FLOAT -2.0 -2.0 8.0   2.0 -2.0 8.0   2.0 -2.0 -2.0  -2.0 -2.0 -2.0
+  nlist 3 1 FLOAT 0.0 1 0 
+  shader bottom_srf
+}
+
+polymesh
+{
+  name back
+  nsides 1 1 BYTE 4
+  vidxs 4 1 LONG 0 1 2 3
+  nidxs 4 1 LONG 0 0 0 0
+  vlist 12 1 FLOAT -2.0 -2.0 -2.0   2.0 -2.0 -2.0   2.0 2.0 -2.0  -2.0 2.0 -2.0
+  nlist 3 1 FLOAT 0.0 0 1 
+  shader back_srf
+}
+
+sphere
+{
+ shader pimp
+ radius 1
+ center 0 -1 0
+}
+
+quad_light
+{
+  name arealight
+  vertices 4 1 POINT -1.0 1.9 1.0   -1.0 1.9 0.0  1.0 1.9 0.0   1.0 1.9 1.0
+  color 0.9 0.9 1.0
+  intensity 1
+  exposure 6
+  samples 3
+  normalize on
+}
+
+
