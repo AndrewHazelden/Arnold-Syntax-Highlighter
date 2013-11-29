@@ -75,6 +75,7 @@ Gedit comes with 5 colors schemes by default:
 I hope the Arnold syntax highlighter improves your coding workflow as you develop new Arnold scene source files using the excellent gedit text editor. I've also created an Arnold syntax highlighter for Notepad++, BBEdit, and TextWrangler.
 
 Cheers,    
+
 Andrew Hazelden
 
 Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)   

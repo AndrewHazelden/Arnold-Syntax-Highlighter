@@ -95,6 +95,7 @@ This is the view with the  [Midnight Blue Color Scheme](http://www.andrewhazelde
 I hope this tool improves your coding workflow as you develop new Arnold scene souce (.ass) files using TextWrangler or BBEdit on a Mac OS X System. I've also created an Arnold syntax highlighter for Notepad++, and gedit.
 
 Cheers,  
+
 Andrew Hazelden
 
 Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)   

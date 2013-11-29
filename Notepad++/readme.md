@@ -67,6 +67,7 @@ Here is an example Arnold .ass file with Notepad++ based syntax highlighting ena
 I hope this tool improves your coding workflow as you develop new Arnold scene source files using the Notepad++ text editor. I've also created an Arnold syntax highlighter for gedit, BBEdit, and TextWrangler.
 
 Cheers,  
+
 Andrew Hazelden
 
 Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)   
