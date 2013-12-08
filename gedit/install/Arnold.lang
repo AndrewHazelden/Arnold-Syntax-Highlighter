@@ -48,7 +48,7 @@
       <!-- Start of Arnold Syntax Elements -->
 
       <!-- Comments -->
-      <context id="comment-numbersign" style-ref="comment-numbersign" end-at-line-end="true" class-disabled="no-spell-check">
+      <context id="comment-numbersign" style-ref="comment-numbersign" end-at-line-end="true">
         <start>#</start>
         <end>\n</end>
         <include>

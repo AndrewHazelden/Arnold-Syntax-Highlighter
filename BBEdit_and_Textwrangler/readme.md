@@ -1,5 +1,5 @@
 # BBEdit and TextWrangler Arnold Codeless Language Module  #
-**Version 1** Released November 29, 2013  
+**Version 1.1** Released Dec 7, 2013  
 by Andrew Hazelden
 
 ![Sample Arnold file](screenshots/tw_arnold_syntax_highlighter.png)

@@ -1,5 +1,5 @@
 # gedit Arnold Syntax Highlighter  #
-**Version 1** Released Nov 29, 2013  
+**Version 1.1** Released Dec 7, 2013  
 by Andrew Hazelden
 
 ![This is a sample Arnold scene source file with syntax highlighting](screenshots/gedit-arnold-highlighter.png)
@@ -75,7 +75,6 @@ Gedit comes with 5 colors schemes by default:
 I hope the Arnold syntax highlighter improves your coding workflow as you develop new Arnold scene source files using the excellent gedit text editor. I've also created an Arnold syntax highlighter for Notepad++, BBEdit, and TextWrangler.
 
 Cheers,    
-
 Andrew Hazelden
 
 Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)   
