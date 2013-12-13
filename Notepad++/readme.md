@@ -43,7 +43,7 @@ In the open dialog select the **"userDefined_Arnold.xml"** file and click **open
 
 ![Select the userDefined_Arnold.xml file ](screenshots/6_select_the_language_file.png)
 
-If the file was loaded correctly an "Import Successful" notice will appear.  Click the **OK** button to continue. At this point you should close the "User Defined Language" widow by clicking on the window's **X** shaped close button.
+If the file was loaded correctly an "Import Successful" notice will appear.  Click the **OK** button to continue. At this point you should close the "User Defined Language" window by clicking on the window's **X** shaped close button.
 
 ![You will see a "Import Successful" notice](screenshots/7_import_success.png)
 
