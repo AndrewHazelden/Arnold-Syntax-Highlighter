@@ -6,7 +6,7 @@ by Andrew Hazelden
 
 ## Overview ##
 
-I've just finished a set of Notepad++, GEDIT, BBEdit, and TextWrangler syntax highlighting modules for code from [Solid Angle's Arnold Renderer](http://www.solidangle.com/). The new modules makes it easier for a VFX artist or technical director to edit an Arnold scene source file.
+I've just finished a set of Notepad++, GEDIT, BBEdit, and TextWrangler syntax highlighting modules for code from [Solid Angle's Arnold Renderer](http://www.solidangle.com/). The new modules make it easier for a VFX artist or technical director to edit an Arnold scene source file.
 
 * * *
 
