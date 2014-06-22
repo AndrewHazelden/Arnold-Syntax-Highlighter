@@ -1,7 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<title>README</title>
+<title>readme</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -273,43 +273,18 @@ img {
 </style>
 </head>
 <body>
-<h1>Notepad++ Arnold Syntax Highlighter</h1>
-<p><strong>Version 1.1</strong> Released Dec 7, 2013 <br />
+<h1>Arnold Syntax Highlighter</h1>
+<p><strong>Version 1.2</strong> Released June 22, 2014<br />
 by Andrew Hazelden</p>
-<p><img src="screenshots/arnold_syntax_highlighter.png" alt="Sample Arnold file" /></p>
+<p><img src="arnold_syntax_highlighter.png" alt="Sample Arnold file" /></p>
 <h2>Overview</h2>
-<p>I would like to present a new Notepad++ syntax highlighting module that works with code from <a href="http://www.solidangle.com/">Solid Angle's Arnold Renderer</a>. The new module makes it easier for a VFX Artist or Technical Director to edit an Arnold scene source (.ass) file.</p>
-<p><strong>Note:</strong> The free program Notepad++ is required to use the syntax highlighter.</p>
-<h2>Download</h2>
-<p>The Arnold Syntax Highlighter module is a free download.</p>
-<p>You can download the latest version on GitHub here: <br />
-<a href="https://github.com/AndrewHazelden/Arnold-Syntax-Highlighter/">https://github.com/AndrewHazelden/Arnold-Syntax-Highlighter/</a></p>
-<h2>Installation</h2>
-<p><strong>Step 1.</strong>  <a href="http://notepad-plus-plus.org/download/v6.4.5.html">Download Notepad++</a> and install it on your system. After you start Notepad++ you will see a blank text editing window.</p>
-<p><img src="screenshots/1_notepad++_UI_start.png" alt="Starting up Notepad++" /></p>
-<p><strong>Step 2.</strong>  The syntax highlighting module has been customized to work with the dark background based <strong>Obsidian</strong> theme. To load the Obsidian theme in Notepad++, go to the <strong>Settings</strong> menu and select <strong>&quot;Style Configurator...&quot;</strong></p>
-<p><img src="screenshots/2_style_configurator.png" alt="Open the Style Configurator" /></p>
-<p>In the Style Configurator window select the <strong>Obsidian</strong> theme and click the <strong>Save and Close</strong> button. </p>
-<p><img src="screenshots/3_style_configurator_obsidian.png" alt="Choose the Obsidian Theme" /></p>
-<p><strong>Step 3.</strong> Let's load the custom &quot;Arnold&quot; syntax highlighting module. Open the <strong>Language</strong> menu in Notepad++ and select the <strong>&quot;Define your language...&quot;</strong> menu item. The <strong>User Defined Language</strong> window will load.</p>
-<p><img src="screenshots/4_define_your_language.png" alt="Load the Define Your Language Window" /></p>
-<p><strong>Step 4.</strong> In the <strong>User Defined Language</strong> window, click on the <strong>Import</strong> button to load the XML based language file.</p>
-<p><img src="screenshots/5_import_a_language.png" alt="Click the &quot;Import&quot; button" /></p>
-<p>In the open dialog select the <strong>&quot;userDefined_Arnold.xml&quot;</strong> file and click <strong>open</strong>.</p>
-<p><img src="screenshots/6_select_the_language_file.png" alt="Select the userDefined_Arnold.xml file " /></p>
-<p>If the file was loaded correctly an &quot;Import Successful&quot; notice will appear.  Click the <strong>OK</strong> button to continue. At this point you should close the &quot;User Defined Language&quot; window by clicking on the window's <strong>X</strong> shaped close button.</p>
-<p><img src="screenshots/7_import_success.png" alt="You will see a &quot;Import Successful&quot; notice" /></p>
-<p><strong>Step 5.</strong>  We need to restart Notepad++ for the new language module to be listed in the Notepad++ language menu.</p>
-<p><img src="screenshots/8_unstyled_text.png" alt="This is an unformatted script" /></p>
-<p>If you open an Arnold scene source .ass file at this point you will see formatted text. If you are working on an include file without the .ass extension you can select the language manually.</p>
-<p>Open the <strong>Language</strong> menu and select <strong>Arnold</strong>. This will turn on syntax highlighting and make it easier to develop complex Arnold scene files.</p>
-<p><img src="screenshots/9_select_the_language.png" alt="Select the Arnold Language" /></p>
-<p>Here is an example Arnold .ass file with Notepad++ based syntax highlighting enabled:</p>
-<p><img src="screenshots/10_highlighted_arnold.png" alt="This is a sample show script that has syntax highlighting" /></p>
+<p>I've just finished a set of Notepad++, GEDIT, BBEdit, and TextWrangler syntax highlighting modules for code from <a href="http://www.solidangle.com/">Solid Angle's Arnold Renderer</a>. The new modules make it easier for a VFX artist or technical director to edit an Arnold scene source file.</p>
+<p><strong>New in Version 1.2</strong> I've created an Arnold Metadata .mtd syntax highlighter module for Notepad++. Here is an example Arnold Metadata .mtd file (<code>jf_nested_dielectric.mtd</code>) with syntax highlighting enabled:</p>
+<p><img src="mtd_syntax_highlighting.png" alt="This is a sample mtd file that has syntax highlighting" /></p>
 <hr />
-<p>I hope this tool improves your coding workflow as you develop new Arnold scene source files using the Notepad++ text editor. I've also created an Arnold syntax highlighter for gedit, BBEdit, and TextWrangler.</p>
-<p>Cheers,  </p>
-<p>Andrew Hazelden</p>
+<p>I hope this tool improves your coding workflow as you develop new Arnold Scene Source (.ASS) and Arnold Metadata (.MTD) files using a plain text editor.</p>
+<p>Cheers,<br />
+Andrew Hazelden</p>
 <p>Email: <a href="&#109;&#x61;&#105;&#x6c;&#116;&#111;&#58;&#x61;n&#x64;&#x72;&#x65;&#x77;&#x40;&#97;&#x6e;d&#114;&#x65;&#x77;&#104;&#x61;&#122;&#101;&#x6c;&#x64;&#x65;&#110;&#x2e;&#99;&#x6f;&#109;">&#x61;&#110;&#x64;&#114;&#101;w&#64;a&#110;&#100;&#114;&#101;&#119;&#x68;&#x61;zel&#100;&#x65;&#x6e;&#46;&#99;&#111;&#109;</a> <br />
 Blog: <a href="http://www.andrewhazelden.com">http://www.andrewhazelden.com</a><br />
 Twitter: <a href="https://twitter.com/andrewhazelden">@andrewhazelden</a><br />

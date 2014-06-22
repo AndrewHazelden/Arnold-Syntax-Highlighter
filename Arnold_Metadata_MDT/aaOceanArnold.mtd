@@ -1,0 +1,75 @@
+# aaOceanArnold 0x00116400
+
+[node aaOceanArnold]
+  maya.name STRING "aaOceanArnold"
+  maya.id INT 0x00116400
+  maya.classification STRING "shader/surface"
+  maya.output_name STRING "outColor"
+  maya.output_shortname STRING "out"
+
+  [attr uv_coords]
+    default       VECTOR  1.0 1.0 1.0
+  [attr use_uv_input]   
+    default       BOOL  False
+  [attr fade]
+    default             FLOAT   0.0
+  [attr resolution]
+    default             INT     4
+    min                 INT     3
+    max                 INT   8
+  [attr oceanScale]
+    default             FLOAT   100.0
+    min               FLOAT   0.0001
+  [attr seed]
+    default             INT     1
+    min                 INT     1
+  [attr waveHeight]
+    default             FLOAT   5.0
+    min               FLOAT   0.0001
+  [attr velocity]
+    default             FLOAT   4.5
+    min               FLOAT   0.0001
+  [attr waveSpeed]
+    default             FLOAT   1.0
+    min               FLOAT   0.0
+  [attr chopAmount]
+    default             FLOAT   1.0
+    min               FLOAT   0.0001
+  [attr cutoff]
+    default             FLOAT   0.0
+    min               FLOAT   0.0001
+  [attr windDir]
+    default             FLOAT   45.0
+    min               FLOAT   0.0
+    max               FLOAT   360.0
+  [attr damp]
+    default             FLOAT   0.0
+    min               FLOAT   0.0
+    max               FLOAT   1.0
+  [attr windAlign]
+    default             INT     0
+  [attr time]
+    default             FLOAT   0.1
+  [attr gamma]
+    default             FLOAT   1.0
+  [attr brightness]
+    default             FLOAT   1.0
+  [attr raw]
+    default             BOOL   False
+  [attr invertFoam]
+    default             BOOL   False
+  [attr fMin]
+    default             FLOAT   0.0
+  [attr fMax]
+    default             FLOAT   0.0
+  [attr writeFile]
+    default             BOOL   False
+  [attr outputFolder]
+    default             STRING ""
+  [attr postfix]
+    default             STRING ""
+  [attr currentFrame]
+    default             INT     1
+  [attr rotateUV]   
+    default       BOOL  False
+    
