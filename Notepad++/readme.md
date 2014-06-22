@@ -76,7 +76,7 @@ Here is an example Arnold metadata .mtd file with Notepad++ based syntax highlig
 ![This is a sample mtd file that has syntax highlighting](screenshots/mtd_sample_document.png)
 
 
-**Bonus Step** If you use the Notepad++ Compare module you can load the Oblivion theme compatible color palette file "compare.ini" from the Arnold Syntax Highlighter install folder by copying it to your Notepad++ preferences folder:
+**Bonus Step** If you use the Notepad++ Compare module you can load the new Obsidian theme compatible color palette file "Compare.ini" from the Arnold Syntax Highlighter install folder by copying "Compare.ini" to your Notepad++ preferences folder:
 
     C:\Users\<Your User Account>\AppData\Roaming\Notepad++
 
