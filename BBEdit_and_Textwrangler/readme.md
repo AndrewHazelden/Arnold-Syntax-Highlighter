@@ -1,11 +1,15 @@
 # BBEdit and TextWrangler Arnold Codeless Language Module  #
-**Version 1.1** Released Dec 7, 2013  
+**Version 1.2** Released July 26, 2014  
 by Andrew Hazelden
 
 ![Sample Arnold file](screenshots/tw_arnold_syntax_highlighter.png)
 
 ## Overview ##
 I would like to present a new BBEdit and TextWrangler syntax highlighting module that works with code from [Solid Angle's Arnold Renderer](http://www.solidangle.com/). The new module makes it easier for a VFX Artist or Technical Director to edit an Arnold scene source (.ass) file.
+
+**New in Version 1.2** I've created an Arnold Metadata .mtd syntax highlighter module for BBEdit and Textwragler. Here is an example Arnold Metadata .mtd file (`jf_nested_dielectric.mtd`) with syntax highlighting enabled:
+
+![This is a sample mtd file that has syntax highlighting](screenshots/mtd_syntax_highlighting.png)
 
 **Note:** This syntax highlighting module requires either [TextWrangler (free)](http://www.barebones.com/products/textwrangler/) or [BBEdit](http://www.barebones.com/products/bbedit/) from Bare Bones Software.
 
@@ -49,7 +53,7 @@ BBEdit Folder Creation Command:
 ![Make the directory](screenshots/make_the_folder.png)
 
 
-Once you are in the Language Modules folder you can copy the **Arnold.plist** file in place.
+Once you are in the Language Modules folder you can copy the **Arnold.plist** and **Arnold Metadata.plist** files in place.
 
 ![Copy the Arnold.plist file.](screenshots/copy-plist-to-folder.png)
 

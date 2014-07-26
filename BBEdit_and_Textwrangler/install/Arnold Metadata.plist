@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<!-- 
+
+  Solid Angle Arnold Metadata MTD Language Module for BBEdit and TextWrangler
+  Version 1.2 - July 26, 2014
+
+  Created by Andrew Hazelden
+  andrew@andrewhazelden.com
+  http://www.andrewhazelden.com
+  
+  Released under a Creative Commons Attribution-ShareAlike License:
+	<http://creativecommons.org/licenses/by-sa/2.0/>
+
+  To install, copy here:
+    
+      ~/Library/Application Support/BBEdit/Language Modules/
+
+  or here:
+
+    ~/Library/Application Support/TextWrangler/Language Modules/
+
+  and relaunch BBEdit or TextWrangler.
+  
+  Note: If you want to edit the plist file you can use the Apple plutil tool to validate plist file to check your edits for errors:
+  plutil ~/"Library/Application Support/TextWrangler/Language Modules/Arnold Metadata.plist"
+
+
+-->
+
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+
+	<key>BBLMColorsSyntax</key>
+	<true/>
+
+	<key>Copyright</key>
+	<string>Copyright © 2014, Andrew Hazelden</string>
+	
+	<key>Author</key>
+	<string>Andrew Hazelden</string>
+	
+	<key>Version</key>
+	<string>1.0</string>
+
+	<key>BBLMIsCaseSensitive</key>
+	<false/>
+
+	<key>BBLMLanguageCode</key>
+	<string>MTD</string>
+
+	<key>BBLMLanguageDisplayName</key>
+	<string>Arnold Metadata</string>
+
+	<key>BBLMScansFunctions</key>
+	<false/>
+  
+	<key>BBLMSuffixMap</key> 
+	<array> 
+	<dict> 
+	  <key>BBLMLanguageSuffix</key> 
+	  <string>.mtd</string>
+	</dict>
+	</array> 
+ 
+	<key>BBLMPreferredFilenameExtension</key>
+	<string>mtd</string>
+
+	<key>BBLMSupportsTextCompletion</key>
+	<true/>
+
+	<key>BBLMCommentLineDefault</key>
+	<string>#</string>
+
+	<key>BBLMKeywordList</key>
+	<array>
+    <!-- Arnold Data Types Start -->
+		<string>ARRAY</string>
+		<string>BOOL</string>
+		<string>BYTE</string>
+		<string>ENUM</string>
+		<string>FLOAT</string>
+		<string>INT</string>
+		<string>LONG</string>
+		<string>MATRIX</string>
+		<string>NODE</string>
+		<string>POINT</string>
+		<string>POINT2</string>
+		<string>POINTER</string>
+		<string>RGB</string>
+		<string>RGBA</string>
+		<string>STRING</string>
+		<string>UINT</string>
+		<string>VECTOR</string>
+		<string>b85BYTE</string>
+		<string>b85FLOAT</string>
+		<string>b85POINT</string>
+		<string>b85POINT2</string>
+		<string>b85UINT</string>
+		<string>b85VECTOR</string>
+    <!-- Arnold Data Types Start -->
+    
+    <!-- Arnold Keywords1 Start -->
+    	<string>attr</string>
+		<string>node</string>
+    <!-- Arnold Keywords1 End-->
+
+    <!-- Arnold Keywords2 Start -->
+		<string>min</string>
+		<string>max</string>
+		<string>softmin</string>
+		<string>softmax</string>
+		<string>default</string>
+		<string>desc</string>
+		<string>label</string>
+		<string>maya</string>
+		<string>name</string>
+		<string>id</string>
+		<string>classification</string>
+		<string>output_name</string>
+		<string>output_shortname</string>
+		<string>keyable</string>
+		<string>orig_shortname</string>
+		<string>channelbox</string>
+		<string>type</string>
+		<string>type</string>
+		<string>enable_composition</string>
+		<string>linkable</string>
+		<string>lights</string>
+		<string>output</string>
+		<string>animatable</string>
+		<string>translator</string>
+		<string>label</string>
+		<string>hide</string>
+		<string>attr_prefix</string>
+		<string>houdini</string>
+		<string>label</string>
+		<string>icon</string>
+		<string>help_url</string>
+		<string>type</string>
+		<string>menu_script</string>
+		<string>menu</string>
+		<string>disable_when</string>
+		<string>aov</string>
+		<string>parm</string>
+		<string>folder</string>
+		<string>folder1</string>
+		<string>heading</string>
+		<string>hshall</string>
+		<string>hmid</string>
+		<string>hdeep</string>
+		<string>hopt</string>
+		<string>hpri</string>
+		<string>hsec</string>
+		<string>order</string>
+		<string>order2</string>
+		<string>order3</string>
+		<string>order4</string>
+		<string>order5</string>
+		<string>order6</string>
+		<string>order7</string>
+		<string>lod</string>
+		<string>hide_when</string>
+		<string>shader_type</string>
+		<string>no_input</string>
+		<string>shallow</string>
+		<string>mid</string>
+		<string>deep</string>
+		<string>specular</string>
+		<string>sheen</string>
+    <!-- Arnold Keywords2 End -->
+
+	</array>
+		
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Characters</key>
+		<string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz</string>		
+
+		<key>Open Strings 1</key>
+		<string>&quot;</string>
+		<key>Close Strings 1</key>
+		<string>&quot;</string>
+		<key>End-of-line Ends Strings 1</key>
+		<true/>
+		<key>Escape Char in Strings 1</key>
+		<string>\</string>
+		
+		<key>Open Line Comments</key> <string>;</string>
+		<key>PreferLineCommentsWhenCommenting</key>
+		<true/>
+		
+		<key>Comment Pattern</key> 
+		<string><![CDATA[
+		(?x: 
+			(\#.*?$)
+		)
+		]]></string>
+		
+		<key>String Pattern</key> 
+		<string><![CDATA[ 
+		(?x: 
+			("(\\"|[^"\r]|\\\r)*") | (?# Double-quote) 
+			(?s: 
+				<<-?(?P<delim>\w+) (?# Here-document)
+				.*?
+				(?P=delim)
+			)
+		)
+		]]></string>
+		
+		<key>Skip Pattern</key> 
+		<string><![CDATA[ 
+		(?x: 
+		(?P>comment) |
+		(?P>string)
+		)]]></string>
+	
+  </dict>
+
+</dict>
+</plist>
