@@ -6,7 +6,7 @@
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
 /* Author: Nicolas Hery - http://nicolashery.com */
-/* Version: 29d1c5bc36da364ad5aa86946d420b7bbc54a253 */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
 /* Source: https://github.com/nicolahery/markdownpad-github */
 
 /* RESET
@@ -212,6 +212,24 @@ pre code, pre tt {
   border: none;
 }
 
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
 /* QUOTES
 =============================================================================*/
 
@@ -271,126 +289,26 @@ img {
   max-width: 100%
 }
 </style>
-<style type="text/css">
-.highlight  { background: #ffffff; }
-.highlight .c { color: #999988; font-style: italic } /* Comment */
-.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
-.highlight .k { font-weight: bold } /* Keyword */
-.highlight .o { font-weight: bold } /* Operator */
-.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
-.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
-.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
-.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
-.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
-.highlight .ge { font-style: italic } /* Generic.Emph */
-.highlight .gr { color: #aa0000 } /* Generic.Error */
-.highlight .gh { color: #999999 } /* Generic.Heading */
-.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
-.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
-.highlight .go { color: #888888 } /* Generic.Output */
-.highlight .gp { color: #555555 } /* Generic.Prompt */
-.highlight .gs { font-weight: bold } /* Generic.Strong */
-.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
-.highlight .gt { color: #aa0000 } /* Generic.Traceback */
-.highlight .kc { font-weight: bold } /* Keyword.Constant */
-.highlight .kd { font-weight: bold } /* Keyword.Declaration */
-.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
-.highlight .kr { font-weight: bold } /* Keyword.Reserved */
-.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
-.highlight .m { color: #009999 } /* Literal.Number */
-.highlight .s { color: #d14 } /* Literal.String */
-.highlight .na { color: #008080 } /* Name.Attribute */
-.highlight .nb { color: #0086B3 } /* Name.Builtin */
-.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
-.highlight .no { color: #008080 } /* Name.Constant */
-.highlight .ni { color: #800080 } /* Name.Entity */
-.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
-.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
-.highlight .nn { color: #555555 } /* Name.Namespace */
-.highlight .nt { color: #000080 } /* Name.Tag */
-.highlight .nv { color: #008080 } /* Name.Variable */
-.highlight .ow { font-weight: bold } /* Operator.Word */
-.highlight .w { color: #bbbbbb } /* Text.Whitespace */
-.highlight .mf { color: #009999 } /* Literal.Number.Float */
-.highlight .mh { color: #009999 } /* Literal.Number.Hex */
-.highlight .mi { color: #009999 } /* Literal.Number.Integer */
-.highlight .mo { color: #009999 } /* Literal.Number.Oct */
-.highlight .sb { color: #d14 } /* Literal.String.Backtick */
-.highlight .sc { color: #d14 } /* Literal.String.Char */
-.highlight .sd { color: #d14 } /* Literal.String.Doc */
-.highlight .s2 { color: #d14 } /* Literal.String.Double */
-.highlight .se { color: #d14 } /* Literal.String.Escape */
-.highlight .sh { color: #d14 } /* Literal.String.Heredoc */
-.highlight .si { color: #d14 } /* Literal.String.Interpol */
-.highlight .sx { color: #d14 } /* Literal.String.Other */
-.highlight .sr { color: #009926 } /* Literal.String.Regex */
-.highlight .s1 { color: #d14 } /* Literal.String.Single */
-.highlight .ss { color: #990073 } /* Literal.String.Symbol */
-.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
-.highlight .vc { color: #008080 } /* Name.Variable.Class */
-.highlight .vg { color: #008080 } /* Name.Variable.Global */
-.highlight .vi { color: #008080 } /* Name.Variable.Instance */
-.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
-.task-list {
-padding-left:10px;
-margin-bottom:0;
-}
-
-.task-list li {
-    margin-left: 20px;
-}
-
-.task-list-item {
-list-style-type:none;
-padding-left:10px;
-}
-
-.task-list-item label {
-font-weight:400;
-}
-
-.task-list-item.enabled label {
-cursor:pointer;
-}
-
-.task-list-item+.task-list-item {
-margin-top:3px;
-}
-
-.task-list-item-checkbox {
-display:inline-block;
-margin-left:-20px;
-margin-right:3px;
-vertical-align:1px;
-}
-</style>
 </head>
 <body>
 <h1>Arnold Syntax Highlighter</h1>
-
-<p><strong>Version 1.2</strong> Released July 26, 2014<br><br>
+<p><strong>Version 1.3</strong> Released 2015-10-03 
 by Andrew Hazelden</p>
-
-<p><a href="arnold_syntax_highlighter.png" target="_blank"><img src="arnold_syntax_highlighter.png" alt="Sample Arnold file" style="max-width:100%;"></a></p>
-
+<p><img src="arnold_syntax_highlighter.png" alt="Sample Arnold file" /></p>
 <h2>Overview</h2>
-
 <p>I've just finished a set of Notepad++, GEDIT, BBEdit, and TextWrangler syntax highlighting modules for code from <a href="http://www.solidangle.com/">Solid Angle's Arnold Renderer</a>. The new modules make it easier for a VFX artist or technical director to edit an Arnold scene source file.</p>
-
-<p><strong>New in Version 1.2</strong> I've created an Arnold Metadata .mtd syntax highlighter module for Notepad++, TextWrangler and BBEdit. Here is an example Arnold Metadata .mtd file (<code>jf_nested_dielectric.mtd</code>) with syntax highlighting enabled:</p>
-
-<p><a href="mtd_syntax_highlighting.png" target="_blank"><img src="mtd_syntax_highlighting.png" alt="This is a sample mtd file that has syntax highlighting" style="max-width:100%;"></a></p>
-
-<hr><p>I hope this tool improves your coding workflow as you develop new Arnold Scene Source (.ASS) and Arnold Metadata (.MTD) files using a plain text editor.</p>
-
-<p>Cheers,<br><br>
+<p><strong>New in Version 1.3</strong> I've added most of the new syntax options for the Cinema4D C4DtoA version of Arnold.</p>
+<p>Here is an example Arnold Metadata .mtd file (<code>jf_nested_dielectric.mtd</code>) with syntax highlighting enabled:</p>
+<p><img src="mtd_syntax_highlighting.png" alt="This is a sample mtd file that has syntax highlighting" /></p>
+<hr />
+<p>I hope this tool improves your coding workflow as you develop new Arnold Scene Source (.ASS) and Arnold Metadata (.MTD) files using a plain text editor.</p>
+<p>Cheers,<br />
 Andrew Hazelden</p>
-
-<p>Email: <a href="mailto:andrew@andrewhazelden.com">andrew@andrewhazelden.com</a><br><br>
-Blog: <a href="http://www.andrewhazelden.com">http://www.andrewhazelden.com</a><br><br>
-Twitter: <a href="https://twitter.com/andrewhazelden">@andrewhazelden</a><br><br>
+<p>Email: <a href="&#109;&#x61;&#105;&#x6c;&#116;&#111;&#58;&#x61;n&#x64;&#x72;&#x65;&#x77;&#x40;&#97;&#x6e;d&#114;&#x65;&#x77;&#104;&#x61;&#122;&#101;&#x6c;&#x64;&#x65;&#110;&#x2e;&#99;&#x6f;&#109;">&#x61;&#110;&#x64;&#114;&#101;w&#64;a&#110;&#100;&#114;&#101;&#119;&#x68;&#x61;zel&#100;&#x65;&#x6e;&#46;&#99;&#111;&#109;</a> <br />
+Blog: <a href="http://www.andrewhazelden.com">http://www.andrewhazelden.com</a><br />
+Twitter: <a href="https://twitter.com/andrewhazelden">@andrewhazelden</a><br />
 Google+: <a href="https://plus.google.com/+AndrewHazelden">https://plus.google.com/+AndrewHazelden</a></p>
+
 </body>
 </html>
 <!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

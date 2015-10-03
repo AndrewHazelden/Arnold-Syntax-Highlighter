@@ -1,5 +1,5 @@
 # Notepad++ Arnold Syntax Highlighter  #
-**Version 1.2** Released June 22, 2014   
+**Version 1.3** Released 2015-10-03 
 by Andrew Hazelden
 
 ![Sample Arnold file](screenshots/arnold_syntax_highlighter.png)
@@ -7,7 +7,9 @@ by Andrew Hazelden
 ## Overview ##
 I would like to present a new Notepad++ syntax highlighting module that works with code from [Solid Angle's Arnold Renderer](http://www.solidangle.com/). The new module makes it easier for a VFX Artist or Technical Director to edit an Arnold scene source (.ass) file.
 
-**New in Version 1.2** I've created an Arnold Metadata .mtd syntax highlighter module for Notepad++. Here is an example Arnold Metadata .mtd file (`jf_nested_dielectric.mtd`) with syntax highlighting enabled:
+**New in Version 1.3** I've added most of the new syntax options for the Cinema4D C4DtoA version of Arnold.
+
+Here is an example Arnold Metadata .mtd file (`jf_nested_dielectric.mtd`) with syntax highlighting enabled:
 
 ![This is a sample mtd file that has syntax highlighting](screenshots/mtd_syntax_highlighting.png)
 

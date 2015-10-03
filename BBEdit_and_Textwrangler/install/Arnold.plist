@@ -5,7 +5,7 @@
 <!-- 
 
   Solid Angle Arnold Language Module for BBEdit and TextWrangler
-  Version 1.1 - Dec 7, 2013
+  Version 1.3 - 2015-10-03
 
   Created by Andrew Hazelden
   andrew@andrewhazelden.com
@@ -23,6 +23,9 @@
     ~/Library/Application Support/TextWrangler/Language Modules/
 
   and relaunch BBEdit or TextWrangler.
+  
+  Note: If you want to edit the plist file you can use the Apple plutil tool to validate plist file to check your edits for errors:
+  plutil ~/"Library/Application Support/TextWrangler/Language Modules/Arnold.plist"
 
 -->
 
@@ -34,13 +37,13 @@
 	<true/>
 
 	<key>Copyright</key>
-	<string>Copyright © 2013, Andrew Hazelden</string>
+	<string>Copyright © 2015, Andrew Hazelden</string>
 	
 	<key>Author</key>
 	<string>Andrew Hazelden</string>
 	
 	<key>Version</key>
-	<string>1.0</string>
+	<string>1.3</string>
 
 	<key>BBLMIsCaseSensitive</key>
 	<false/>
@@ -1111,6 +1114,11 @@
 		<string>zeroValue</string>
 		<string>zoom_factor</string>
 		<string>zres</string>
+		<string>sss_sample_factor</string>
+		<string>physically_based</string>
+		<string>rolling_shutter_duration</string>
+		<string>matte enable_fast_opacity</string>
+		<string>aov_refraction_opacity</string>
     <!-- Arnold Parameters End-->
 
 	</array>

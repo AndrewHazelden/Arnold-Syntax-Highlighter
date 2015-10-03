@@ -2,7 +2,7 @@
 <!--
 
  Author: Andrew Hazelden <andrew@andrewhazelden.com
- Copyright (C) 2013 Andrew Hazelden
+ Copyright (C) 2013-2015 Andrew Hazelden
 
   Released under a Creative Commons Attribution-ShareAlike License:
   <http://creativecommons.org/licenses/by-sa/2.0/>
@@ -1132,6 +1132,11 @@
         <keyword>zeroValue</keyword>
         <keyword>zoom_factor</keyword>
         <keyword>zres</keyword>
+        <keyword>sss_sample_factor</keyword>
+        <keyword>physically_based</keyword>
+        <keyword>rolling_shutter_duration</keyword>
+        <keyword>matte enable_fast_opacity</keyword>
+        <keyword>aov_refraction_opacity</keyword>
         <!-- Arnold Parameters End-->
         </context>
 

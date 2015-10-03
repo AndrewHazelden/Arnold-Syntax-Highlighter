@@ -5,7 +5,7 @@
 <!-- 
 
   Solid Angle Arnold Metadata MTD Language Module for BBEdit and TextWrangler
-  Version 1.2 - July 26, 2014
+  Version 1.3 - 2015-10-03
 
   Created by Andrew Hazelden
   andrew@andrewhazelden.com
@@ -38,13 +38,13 @@
 	<true/>
 
 	<key>Copyright</key>
-	<string>Copyright © 2014, Andrew Hazelden</string>
+	<string>Copyright © 2015, Andrew Hazelden</string>
 	
 	<key>Author</key>
 	<string>Andrew Hazelden</string>
 	
 	<key>Version</key>
-	<string>1.0</string>
+	<string>1.3</string>
 
 	<key>BBLMIsCaseSensitive</key>
 	<false/>
@@ -171,6 +171,29 @@
 		<string>deep</string>
 		<string>specular</string>
 		<string>sheen</string>
+    
+    <string>bcklght</string>
+    <string>sss</string>
+    <string>dvncd</string>
+    <string>ttntn</string>
+    <string>cntrst</string>
+    <string>folder2</string>
+    <string>bsndgn</string>
+    <string>clmp</string>
+    <string>category</string>
+    <string>ftrwghts</string>
+    <string>rmp</string>
+    
+    <string>c4d</string>
+    <string>gui_visible</string>
+    <string>exportable</string>
+    <string>step</string>
+    <string>gui_type</string>
+    <string>array_type</string>
+    <string>tag_visible</string>
+    <string>command_id</string>
+    <string>menu</string>
+    <string>visible_in_editor</string>
     <!-- Arnold Keywords2 End -->
 
 	</array>
