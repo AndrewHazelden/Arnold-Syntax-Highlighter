@@ -296,7 +296,7 @@ img {
 by Andrew Hazelden</p>
 <p><img src="screenshots/gedit-arnold-highlighter.png" alt="This is a sample Arnold scene source file with syntax highlighting" /></p>
 <h2>Overview</h2>
-<p>I would like to present a new gedit syntax highlighting module that works with code from <a href="http://www.solidangle.com/">Solid Angle's Arnold Renderer</a>. The new module makes it easier for a VFX Artist or Technical Director to edit an Arnold scene source (.ass) file.</p>
+<p>I would like to present a new gedit syntax highlighting module that works with code from <a href="http://www.solidangle.com/">Solid Angle's Arnold Renderer</a>. The new module makes it easier for a VFX Artist or Technical Director to edit an Arnold scene source (.ass) and Arnold Metdata (.mtd) files.</p>
 <p><strong>Note:</strong> The opens source program gedit is required to use the syntax highlighter. The gedit text editor is available for Linux, Windows, and Mac OS X systems.</p>
 <h2>Download</h2>
 <p>The Arnold Syntax Highlighter module is a free download.</p>
@@ -306,17 +306,17 @@ by Andrew Hazelden</p>
 <p><strong>Step 1.</strong>  <a href="https://projects.gnome.org/gedit/">Download gedit</a> and install it on your system. If you are on Linux you already have a copy of gedit on you system. After you start gedit you will see a blank text editing window.</p>
 <p><strong>Step 2.</strong>  Copy the <strong>Arnold.lang</strong> and <strong>ArnoldMetadata.lang</strong> files to your gedit language-specs folder.</p>
 <p><img src="screenshots/gedit-arnold-folder.png" alt="Open the language-specs folder" /></p>
-<p>On Windows you need to copy the Arnold.lang file to the <strong>language-specs</strong> folder located at:
+<p>On Windows you need to copy the Arnold.lang and ArnoldMetadata.lang files to the <strong>language-specs</strong> folder located at:
     <code>C:\Program Files (x86)\gedit\share\gtksourceview-2.0\language-specs\</code><br />
 or<br />
     <code>C:\Program Files\gedit\share\gtksourceview-2.0\language-specs\</code>  </p>
-<p>On Linux you need to copy the Arnold.lang file to the language-specs folder located at:
+<p>On Linux you need to copy the  Arnold.lang and ArnoldMetadata.lang files to the language-specs folder located at:
      <code>/usr/local/share/gtksourceview-2.0/language-specs/</code><br />
 or<br />
      <code>/usr/share/gtksourceview-2.0/language-specs/</code>  </p>
-<p><strong>Step 3.</strong>  We need to restart gedit for the new language module to be listed in the gedit <strong>Highlighter Mode</strong> menu. Let's check if the script was installed correctly by opening the menu <strong>View &gt; Highlighter Mode &gt; Scripts &gt; Arnold</strong>.</p>
+<p><strong>Step 3.</strong>  We need to restart gedit for the new language modules to be listed in the gedit <strong>Highlighter Mode</strong> menu. Let's check if the script was installed correctly by opening the menu <strong>View &gt; Highlighter Mode &gt; Scripts &gt; Arnold</strong>.</p>
 <p><img src="screenshots/gedit-arnold-highlight-mode.png" alt="Select the Arnold Language" /></p>
-<p>If you open an Arnold scene source .ass file at this point you will see formatted text. If you are working on an arnold file without the .ass extension you can select the language manually.</p>
+<p>If you open an Arnold scene source .ass file at this point you will see formatted text. If you are working on an Arnold file without the .ass extension you can select the language manually.</p>
 <p>Let's manually enable the Arnold compatible syntax highlighting module. Open the <strong>Language</strong> menu on the bottom right of the window and select <strong>Arnold</strong>. This will turn on syntax highlighting and make it easier to develop complex Arnold scene files.</p>
 <p><img src="screenshots/gedit-arnold-languages-menu.png" alt="Select the Arnold Language" /></p>
 <h2>Color Schemes</h2>

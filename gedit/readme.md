@@ -5,7 +5,7 @@ by Andrew Hazelden
 ![This is a sample Arnold scene source file with syntax highlighting](screenshots/gedit-arnold-highlighter.png)
 
 ## Overview ##
-I would like to present a new gedit syntax highlighting module that works with code from [Solid Angle's Arnold Renderer](http://www.solidangle.com/). The new module makes it easier for a VFX Artist or Technical Director to edit an Arnold scene source (.ass) file.
+I would like to present a new gedit syntax highlighting module that works with code from [Solid Angle's Arnold Renderer](http://www.solidangle.com/). The new module makes it easier for a VFX Artist or Technical Director to edit an Arnold scene source (.ass) and Arnold Metdata (.mtd) files.
 
 **Note:** The opens source program gedit is required to use the syntax highlighter. The gedit text editor is available for Linux, Windows, and Mac OS X systems.
 
@@ -25,22 +25,22 @@ You can download the latest version on GitHub here:
 
 ![Open the language-specs folder](screenshots/gedit-arnold-folder.png)
 
-On Windows you need to copy the Arnold.lang file to the **language-specs** folder located at:
+On Windows you need to copy the Arnold.lang and ArnoldMetadata.lang files to the **language-specs** folder located at:
     `C:\Program Files (x86)\gedit\share\gtksourceview-2.0\language-specs\`  
 or  
     `C:\Program Files\gedit\share\gtksourceview-2.0\language-specs\`  
   
-On Linux you need to copy the Arnold.lang file to the language-specs folder located at:
+On Linux you need to copy the  Arnold.lang and ArnoldMetadata.lang files to the language-specs folder located at:
      `/usr/local/share/gtksourceview-2.0/language-specs/`  
 or  
      `/usr/share/gtksourceview-2.0/language-specs/`  
 
      
-**Step 3.**  We need to restart gedit for the new language module to be listed in the gedit **Highlighter Mode** menu. Let's check if the script was installed correctly by opening the menu **View > Highlighter Mode > Scripts > Arnold**.
+**Step 3.**  We need to restart gedit for the new language modules to be listed in the gedit **Highlighter Mode** menu. Let's check if the script was installed correctly by opening the menu **View > Highlighter Mode > Scripts > Arnold**.
 
 ![Select the Arnold Language](screenshots/gedit-arnold-highlight-mode.png)
 
-If you open an Arnold scene source .ass file at this point you will see formatted text. If you are working on an arnold file without the .ass extension you can select the language manually.
+If you open an Arnold scene source .ass file at this point you will see formatted text. If you are working on an Arnold file without the .ass extension you can select the language manually.
 
 
 Let's manually enable the Arnold compatible syntax highlighting module. Open the **Language** menu on the bottom right of the window and select **Arnold**. This will turn on syntax highlighting and make it easier to develop complex Arnold scene files.
