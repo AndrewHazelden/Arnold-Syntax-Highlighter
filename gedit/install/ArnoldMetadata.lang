@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ Author: Andrew Hazelden <andrew@andrewhazelden.com
+ Copyright (C) 2015 Andrew Hazelden
+
+  Released under a Creative Commons Attribution-ShareAlike License:
+  <http://creativecommons.org/licenses/by-sa/2.0/>
+  
+
+  Windows gedit language file installation
+  On Windows you need to copy the ArnoldMetadata.lang file to the language-specs folder located at:
+    C:\Program Files (x86)\gedit\share\gtksourceview-2.0\language-specs\ArnoldMetadata.lang
+    or
+    C:\Program Files\gedit\share\gtksourceview-2.0\language-specs\ArnoldMetadata.lang
+  
+  
+  Linux gedit language file installation
+  On Linux you need to copy the ArnoldMetadata.lang file to the language-specs folder located at:
+     /usr/local/share/gtksourceview-2.0/language-specs/ArnoldMetadata.lang
+     or
+     /usr/share/gtksourceview-2.0/language-specs/ArnoldMetadata.lang
+  
+-->
+
+<language id="mtd" _name="ArnoldMetadata" version="2.0" _section="Scripts">
+
+  <metadata>
+    <property name="mimetypes">text/plain</property>
+    <property name="globs">*.mtd;</property>
+    <property name="line-comment-start">#</property>
+  </metadata>
+
+  <styles>
+    <style id="decimal"           _name="Decimal number"      map-to="def:decimal"/>
+    <style id="float"           _name="Floating Point number"      map-to="def:decimal"/>
+    <style id="comment-numbersign"           _name="Comment"             map-to="def:comment"/>
+    <style id="string"            _name="String"              map-to="def:string"/>
+    <style id="escaped-character" _name="Escaped Character" map-to="def:special-char"/>
+    <style id="datatype" _name="datatype" map-to="def:type"/>
+    <style id="nodes" _name="nodes" map-to="def:identifier"/>
+    <style id="parameters"           _name="parameters"             map-to="def:keyword"/>
+  </styles>
+
+  <definitions>
+  <context id="mtd">
+    <include>
+      <!-- Start of Arnold Syntax Elements -->
+
+      <!-- Comments -->
+      <context id="comment-numbersign" style-ref="comment-numbersign" end-at-line-end="true">
+        <start>#</start>
+        <end>\n</end>
+        <include>
+          <context ref="def:in-line-comment"/>
+        </include>
+      </context>
+      
+      <!-- Strings -->
+       <context id="string" end-at-line-end="true" style-ref="string">
+        <start>"</start>
+        <end>"</end>
+        <include>
+          <context id="escaped-character" style-ref="escaped-character">
+            <match>\\"</match>
+          </context>
+        </include>
+      </context>
+      
+      <!-- Numbers -->
+       
+          <context id="decimal" style-ref="decimal">
+              <match extended="true">
+                  (?&lt;![\w\.])
+                  [0-9]+[uUlL]*
+                  (?![\w\.])
+              </match>
+          </context>
+        
+          <!-- http://www.lysator.liu.se/c/ANSI-C-grammar-l.html -->
+          <context id="float" style-ref="float">
+              <match extended="true">
+                  (?&lt;![\w\.])
+                  ((\.[0-9]+ | [0-9]+\.[0-9]*) ([Ee][+-]?[0-9]*)? |
+                   ([0-9]+[Ee][+-]?[0-9]*))
+                  [fFlL]?
+                  (?![\w\.])
+              </match>
+          </context>
+
+      <context id="datatype" style-ref="datatype">
+        <!-- Arnold Data Types Start -->
+        <keyword>ARRAY</keyword>
+        <keyword>BOOL</keyword>
+        <keyword>BYTE</keyword>
+        <keyword>ENUM</keyword>
+        <keyword>FLOAT</keyword>
+        <keyword>INT</keyword>
+        <keyword>LONG</keyword>
+        <keyword>MATRIX</keyword>
+        <keyword>NODE</keyword>
+        <keyword>POINT</keyword>
+        <keyword>POINT2</keyword>
+        <keyword>POINTER</keyword>
+        <keyword>RGB</keyword>
+        <keyword>RGBA</keyword>
+        <keyword>STRING</keyword>
+        <keyword>UINT</keyword>
+        <keyword>VECTOR</keyword>
+        <keyword>b85BYTE</keyword>
+        <keyword>b85FLOAT</keyword>
+        <keyword>b85POINT</keyword>
+        <keyword>b85POINT2</keyword>
+        <keyword>b85UINT</keyword>
+        <keyword>b85VECTOR</keyword>
+        <keyword>catclark</keyword>
+        <keyword>constant</keyword>
+        <keyword>indexed</keyword>
+        <keyword>light</keyword>
+        <keyword>noise_disp</keyword>
+        <keyword>object</keyword>
+        <keyword>rgbPP</keyword>
+        <keyword>uniform</keyword>
+        <keyword>varying</keyword>
+        <keyword>vertices</keyword>
+        <!-- Arnold Data Types Start -->
+      </context>
+
+      <context id="nodes" style-ref="nodes">
+        <!-- Arnold attrs Start -->
+        <keyword>animatable</keyword>
+        <keyword>aov.enable_composition</keyword>
+        <keyword>aov.type</keyword>
+        <keyword>c4d.array_type</keyword>
+        <keyword>c4d.classification</keyword>
+        <keyword>c4d.command_id</keyword>
+        <keyword>c4d.exportable</keyword>
+        <keyword>c4d.gui_type</keyword>
+        <keyword>c4d.gui_visible</keyword>
+        <keyword>c4d.menu</keyword>
+        <keyword>c4d.step</keyword>
+        <keyword>c4d.tag_visible</keyword>
+        <keyword>c4d.visible_in_editor</keyword>
+        <keyword>category</keyword>
+        <keyword>default</keyword>
+        <keyword>desc</keyword>
+        <keyword>houdini.category</keyword>
+        <keyword>houdini.disable_when</keyword>
+        <keyword>houdini.help_url</keyword>
+        <keyword>houdini.hide_when</keyword>
+        <keyword>houdini.icon</keyword>
+        <keyword>houdini.label</keyword>
+        <keyword>houdini.lod</keyword>
+        <keyword>houdini.menu</keyword>
+        <keyword>houdini.menu_script</keyword>
+        <keyword>houdini.no_input</keyword>
+        <keyword>houdini.order2</keyword>
+        <keyword>houdini.order3</keyword>
+        <keyword>houdini.order4</keyword>
+        <keyword>houdini.order5</keyword>
+        <keyword>houdini.order6</keyword>
+        <keyword>houdini.order7</keyword>
+        <keyword>houdini.order</keyword>
+        <keyword>houdini.parm.folder.folder1</keyword>
+        <keyword>houdini.parm.folder.folder2</keyword>
+        <keyword>houdini.parm.heading.bcklght</keyword>
+        <keyword>houdini.parm.heading.bsndgn</keyword>
+        <keyword>houdini.parm.heading.clmp</keyword>
+        <keyword>houdini.parm.heading.cntrst</keyword>
+        <keyword>houdini.parm.heading.deep</keyword>
+        <keyword>houdini.parm.heading.dvncd</keyword>
+        <keyword>houdini.parm.heading.ftrwghts</keyword>
+        <keyword>houdini.parm.heading.hdeep</keyword>
+        <keyword>houdini.parm.heading.hmid</keyword>
+        <keyword>houdini.parm.heading.hopt</keyword>
+        <keyword>houdini.parm.heading.hpri</keyword>
+        <keyword>houdini.parm.heading.hsec</keyword>
+        <keyword>houdini.parm.heading.hshall</keyword>
+        <keyword>houdini.parm.heading.mid</keyword>
+        <keyword>houdini.parm.heading.rmp</keyword>
+        <keyword>houdini.parm.heading.shallow</keyword>
+        <keyword>houdini.parm.heading.sheen</keyword>
+        <keyword>houdini.parm.heading.specular</keyword>
+        <keyword>houdini.parm.heading.sss</keyword>
+        <keyword>houdini.parm.heading.ttntn</keyword>
+        <keyword>houdini.shader_type</keyword>
+        <keyword>houdini.type</keyword>
+        <keyword>label</keyword>
+        <keyword>linkable</keyword>
+        <keyword>linkable</keyword>
+        <keyword>max</keyword>
+        <keyword>maya.attr_prefix</keyword>
+        <keyword>maya.channelbox</keyword>
+        <keyword>maya.classification</keyword>
+        <keyword>maya.hide</keyword>
+        <keyword>maya.id</keyword>
+        <keyword>maya.keyable</keyword>
+        <keyword>maya.label</keyword>
+        <keyword>maya.lights</keyword>
+        <keyword>maya.name</keyword>
+        <keyword>maya.orig_shortname</keyword>
+        <keyword>maya.output</keyword>
+        <keyword>maya.output_name</keyword>
+        <keyword>maya.output_shortname</keyword>
+        <keyword>maya.translator</keyword>
+        <keyword>maya.type</keyword>
+        <keyword>min</keyword>
+        <keyword>softmax</keyword>
+        <keyword>softmin</keyword>
+        <!-- Arnold attrs End -->
+      </context>
+
+
+      <context id="parameters" style-ref="parameters">
+        <!-- Arnold Start -->
+        <keyword>attr</keyword>
+        <keyword>node</keyword>
+        <!-- Arnold End-->
+        </context>
+
+    <!-- End of Arnold Syntax Elements -->
+    </include>
+  </context>
+</definitions>
+</language>

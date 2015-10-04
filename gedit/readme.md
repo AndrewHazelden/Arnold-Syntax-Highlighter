@@ -21,19 +21,19 @@ You can download the latest version on GitHub here:
 **Step 1.**  [Download gedit](https://projects.gnome.org/gedit/) and install it on your system. If you are on Linux you already have a copy of gedit on you system. After you start gedit you will see a blank text editing window.
 
 
-**Step 2.**  Copy the **Arnold.lang** file to your gedit language-specs folder.
+**Step 2.**  Copy the **Arnold.lang** and **ArnoldMetadata.lang** files to your gedit language-specs folder.
 
 ![Open the language-specs folder](screenshots/gedit-arnold-folder.png)
 
 On Windows you need to copy the Arnold.lang file to the **language-specs** folder located at:
-    `C:\Program Files (x86)\gedit\share\gtksourceview-2.0\language-specs\Arnold.lang`  
+    `C:\Program Files (x86)\gedit\share\gtksourceview-2.0\language-specs\`  
 or  
-    `C:\Program Files\gedit\share\gtksourceview-2.0\language-specs\Arnold.lang`  
+    `C:\Program Files\gedit\share\gtksourceview-2.0\language-specs\`  
   
 On Linux you need to copy the Arnold.lang file to the language-specs folder located at:
-     `/usr/local/share/gtksourceview-2.0/language-specs/Arnold.lang`  
+     `/usr/local/share/gtksourceview-2.0/language-specs/`  
 or  
-     `/usr/share/gtksourceview-2.0/language-specs/Arnold.lang`  
+     `/usr/share/gtksourceview-2.0/language-specs/`  
 
      
 **Step 3.**  We need to restart gedit for the new language module to be listed in the gedit **Highlighter Mode** menu. Let's check if the script was installed correctly by opening the menu **View > Highlighter Mode > Scripts > Arnold**.
