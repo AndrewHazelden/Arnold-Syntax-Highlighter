@@ -5,7 +5,7 @@ by Andrew Hazelden
 ![This is a sample Arnold scene source file with syntax highlighting](screenshots/gedit-arnold-highlighter.png)
 
 ## Overview ##
-I would like to present a new gedit syntax highlighting module that works with code from [Solid Angle's Arnold Renderer](http://www.solidangle.com/). The new module makes it easier for a VFX Artist or Technical Director to edit an Arnold scene source (.ass) and Arnold Metdata (.mtd) files.
+I would like to present a new gedit syntax highlighting module that works with code from [Solid Angle's Arnold Renderer](http://www.solidangle.com/). The new module makes it easier for a VFX Artist or Technical Director to edit an Arnold scene source (.ass) and Arnold Metadata (.mtd) files.
 
 **Note:** The opens source program gedit is required to use the syntax highlighter. The gedit text editor is available for Linux, Windows, and Mac OS X systems.
 
