@@ -10,16 +10,27 @@
 
   Windows gedit language file installation
   On Windows you need to copy the Arnold.lang file to the language-specs folder located at:
-    C:\Program Files (x86)\gedit\share\gtksourceview-2.0\language-specs\Arnold.lang
+  
+    C:\Program Files (x86)\gedit\share\gtksourceview-2.0\language-specs\
+    
     or
-    C:\Program Files\gedit\share\gtksourceview-2.0\language-specs\Arnold.lang
+    
+    C:\Program Files\gedit\share\gtksourceview-2.0\language-specs\
   
   
   Linux gedit language file installation
   On Linux you need to copy the Arnold.lang file to the language-specs folder located at:
-     /usr/local/share/gtksourceview-2.0/language-specs/Arnold.lang
+  
+     /usr/local/share/gtksourceview-2.0/language-specs/
+     
      or
-     /usr/share/gtksourceview-2.0/language-specs/Arnold.lang
+     
+     /usr/share/gtksourceview-2.0/language-specs/
+
+     or you can place the .lang files in your home folder at:
+
+     ~/.local/share/gtksourceview-2.0/language-specs/
+  
   
 -->
 
