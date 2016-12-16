@@ -1,5 +1,5 @@
 # gedit Arnold Syntax Highlighter  #
-**Version 1.3** Released 2015-10-03
+**Version 1.4** Released 2016-12-16
 by Andrew Hazelden
 
 ![This is a sample Arnold scene source file with syntax highlighting](screenshots/gedit-arnold-highlighter.png)

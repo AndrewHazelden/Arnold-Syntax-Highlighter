@@ -1,5 +1,5 @@
 # Notepad++ Arnold Syntax Highlighter  #
-**Version 1.3** Released 2015-10-03 
+**Version 1.4** Released 2016-12-16 
 by Andrew Hazelden
 
 ![Sample Arnold file](screenshots/arnold_syntax_highlighter.png)

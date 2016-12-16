@@ -1,11 +1,13 @@
 # BBEdit and TextWrangler Arnold Codeless Language Module  #
-**Version 1.3** Released October 3, 2015  
+**Version 1.4** Released 2016-12-16  
 by Andrew Hazelden
 
 ![Sample Arnold file](screenshots/tw_arnold_syntax_highlighter.png)
 
 ## Overview ##
 I would like to present a new BBEdit and TextWrangler syntax highlighting module that works with code from [Solid Angle's Arnold Renderer](http://www.solidangle.com/). The new module makes it easier for a VFX Artist or Technical Director to edit an Arnold scene source (.ass) file.
+
+**New in Version 1.4** I've added most of the new syntax options for the 3ds Max MAXtoA version of Arnold.
 
 **New in Version 1.3** I've added most of the new syntax options for the Cinema4D C4DtoA version of Arnold.
 

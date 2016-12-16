@@ -1,5 +1,5 @@
 # Arnold Syntax Highlighter #
-**Version 1.3** Released 2015-10-03 
+**Version 1.4** Released 2016-12-16  
 by Andrew Hazelden
 
 ![Sample Arnold file](arnold_syntax_highlighter.png)
@@ -7,6 +7,8 @@ by Andrew Hazelden
 ## Overview ##
 
 I've just finished a set of Notepad++, GEDIT, BBEdit, and TextWrangler syntax highlighting modules for code from [Solid Angle's Arnold Renderer](http://www.solidangle.com/). The new modules make it easier for a VFX artist or technical director to edit an Arnold scene source file.
+
+**New in Version 1.4** I've added most of the new syntax options for the 3ds Max MAXtoA version of Arnold.
 
 **New in Version 1.3** I've added most of the new syntax options for the Cinema4D C4DtoA version of Arnold.
 

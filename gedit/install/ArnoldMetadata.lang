@@ -2,7 +2,7 @@
 <!--
 
  Author: Andrew Hazelden <andrew@andrewhazelden.com
- Copyright (C) 2015 Andrew Hazelden
+ Copyright (C) 2015-2016 Andrew Hazelden
 
   Released under a Creative Commons Attribution-ShareAlike License:
   <http://creativecommons.org/licenses/by-sa/2.0/>
@@ -218,6 +218,30 @@
         <keyword>min</keyword>
         <keyword>softmax</keyword>
         <keyword>softmin</keyword>
+        <keyword>c4d</keyword>
+        <keyword>step</keyword>
+        <keyword>gui_visible</keyword>
+        <keyword>node_id</keyword>
+        <keyword>gui_type</keyword>
+        <keyword>sca_hdg</keyword>
+        <keyword>att_hdg</keyword>
+        <keyword>emi_hdg</keyword>
+        <keyword>command_id</keyword>
+        <keyword>swatch</keyword>
+        <keyword>swatch</keyword>
+        <keyword>heading2</keyword>
+        <keyword>heading3</keyword>
+        <keyword>heading4</keyword>
+        <keyword>heading5</keyword>
+        <keyword>heading6</keyword>
+        <keyword>invisible</keyword>
+        <keyword>skip</keyword>
+        <keyword>rollup</keyword>
+        <keyword>expression</keyword>
+        <keyword>no_menu_caps</keyword>
+        <keyword>join_next</keyword>
+        <keyword>maya.swatch</keyword>
+        <keyword>help_url</keyword>
         <!-- Arnold attrs End -->
       </context>
 
