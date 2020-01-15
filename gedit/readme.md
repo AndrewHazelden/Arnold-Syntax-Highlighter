@@ -87,5 +87,4 @@ Andrew Hazelden
 
 Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)   
 Blog: [http://www.andrewhazelden.com](http://www.andrewhazelden.com)  
-Twitter: [@andrewhazelden](https://twitter.com/andrewhazelden)  
-Google+: [https://plus.google.com/+AndrewHazelden](https://plus.google.com/+AndrewHazelden)
+
